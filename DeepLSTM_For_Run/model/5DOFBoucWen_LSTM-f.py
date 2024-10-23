@@ -21,7 +21,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # CPU:-1; GPU0: 1; GPU1: 0;
 
 
 # Load data
-dataDir = 'D:\\PHD\\PHD\\DeepLSTM'  # مسیر اصلی
+dataDir = 'D:\\PHD\\PHD\\Codes_github\\DeepLSTM_For_Run'  # مسیر اصلی
 file_path = os.path.join(dataDir, 'data', 'data_BoucWen.mat')  # ترکیب مسیر به صورت امن
 
 mat = scipy.io.loadmat(file_path)  # بارگذاری فایل
